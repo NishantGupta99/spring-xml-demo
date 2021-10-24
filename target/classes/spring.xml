@@ -9,7 +9,8 @@
 
 	<bean id="employee" scope="singleton"
 		class="com.test.EmployeeBean">
-		<property name="departmentBean" ref="department"> </property>
+		<constructor-arg value="HR"></constructor-arg>
+		<constructor-arg ref="department"></constructor-arg>
 	</bean>
 
 	<bean id="department" class="com.test.DepartmentBean">

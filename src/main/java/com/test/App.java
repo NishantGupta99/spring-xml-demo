@@ -18,7 +18,7 @@ public class App {
 		System.out.println(employee.getFullName());
 
 		employee.applyJob();
-		System.out.println(employee.getDepartmentBean().getDeptName());
+//		System.out.println(employee.getDepartmentBean().getDeptName());
 
 	}
 }
